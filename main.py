@@ -1,14 +1,14 @@
 import math
 
 print("Используя модуль math, вычислите значения по следующим формулам:")
-print("a) y = (pow(a, 2)/3) + (pow(2, a)+4/b) + ((math.sqrt(a ** 2 + 4)) / 4) + (math.sqrt(pow(pow(a, 2 + 4), 3)) / 4)")
+print("a) y = (pow(a, 2) / 3) + (pow(2, a) + 4 / b) + ((math.sqrt(a ** 2) + 4) / 4) + (math.sqrt(pow(pow(a, 2) + 4, 3)) / 4)")
 a_str = input("Введите значение a: ")
 a = float(a_str)
 
 b_str = input("Введите значение b: ")
 b = float(b_str)
 
-y = (pow(a, 2) / 3) + (pow(2, a) + 4 / b) + ((math.sqrt(a ** 2 + 4)) / 4) + (math.sqrt(pow(pow(a, 2 + 4), 3)) / 4)
+y = (pow(a, 2) / 3) + (pow(2, a) + 4 / b) + ((math.sqrt(a ** 2) + 4) / 4) + (math.sqrt(pow(pow(a, 2) + 4, 3)) / 4)
 print(f"|при a = {a} и b = {b} y = {y:.3f}|")
 print("----------------------------------------------------------------------")
 
