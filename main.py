@@ -20,11 +20,11 @@ y = math.cos(x) + math.sin(x)
 print(f"|при x = {x} y = {y:.3f}|")
 print("----------------------------------------------------------------------")
 
-print("c) y = 3 ** (math.sqrt((pow(math.cos(x ** 2), 2) + pow(math.sin(2 * x - 1), 2))))")
+print("c) math.pow((math.sqrt((pow(math.cos(x ** 2), 2) + pow(math.sin(2 * x - 1), 2)))), 1/3)")
 x_str = input("Введите значение x: ")
 x = float(x_str)
 
-y = 3 ** (math.sqrt((pow(math.cos(x ** 2), 2) + pow(math.sin(2 * x - 1), 2))))
+y = math.pow((math.sqrt((pow(math.cos(x ** 2), 2) + pow(math.sin(2 * x - 1), 2)))), 1/3)
 print(f"|при x = {x} y = {y:.3f}|")
 print("----------------------------------------------------------------------")
 
